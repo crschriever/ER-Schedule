@@ -1,0 +1,42 @@
+body{
+    font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+}
+
+#CalendarTemplate{
+    display: none;
+}
+
+.CalendarTable{
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.CalendarTable, .CalendarHeader, .CalendarCell{
+    border: 1px solid gray;
+}
+
+.CalendarHeader{
+    padding: 5px 20px;
+    background-color:#e2e2e2;
+    color:#807e82;
+}
+
+.CalendarHeader, .CalendarCell{
+    width:14%;
+}
+
+.CalendarWeekRow{
+}
+
+.CalendarCell{
+    text-align: left;
+}
+
+.CalendarRightCell{
+    text-align: left;
+}
+
+.Shiftdiv{
+    font-size: .9em;
+    padding: 1px;
+}
